@@ -46,10 +46,18 @@ body{
   font-weight: 500;
   margin: 15px  0px;
 }
-
+.name-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .container>p{
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-size: 1rem;
+}
+.black-heart{
+color:black;
+font-size: 1.5rem;
 }
 .counter .box{
   width: 80px;
