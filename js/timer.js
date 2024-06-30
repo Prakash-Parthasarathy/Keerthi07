@@ -6,11 +6,11 @@ const seconds=document.querySelector("#seconds");
 // const mseconds=document.querySelector("#mseconds");
 
 const currentYear=new Date().getFullYear();
-const newYear=new Date(`July 28 ${currentYear+1} 00:00:00`);
+const keerthiBday=new Date(`June 28 ${currentYear+1} 07:00:00`);
 
 function UpdateTime(){
   const currentDate=new Date();
-  const diff=newYear-currentDate;
+  const diff=keerthiBday-currentDate;
   const d=Math.floor(diff/1000/60/60/24);
   const h=Math.floor((diff/1000/60/60)%24);
   const m=Math.floor((diff/1000/60)%60);
